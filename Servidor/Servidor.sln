@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Servidor", "Servidor.vcxitems", "{A6D14F36-46B5-4E71-8D1F-64735B465B7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cliente", "..\Cliente\Cliente.vcxitems", "{F848FD27-C776-4E4C-97D1-95047C2CDD70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conexion", "..\conexion\conexion.vcxitems", "{477F5D27-9ABE-47C9-9C72-F7FC629E43EF}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A33800D-9D75-42D3-84C8-67494DC3E639}
+	EndGlobalSection
+EndGlobal

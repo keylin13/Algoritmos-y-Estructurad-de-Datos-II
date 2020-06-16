@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{a6d14f36-46b5-4e71-8d1f-64735b465b7e}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)conexion.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Direccion.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)muestra.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Paquete_direcciones.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)conexion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Direccion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)muestra.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Paquete_direcciones.h" />
+  </ItemGroup>
+</Project>
